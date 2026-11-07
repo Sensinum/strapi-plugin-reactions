@@ -243,7 +243,6 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version-file: .nvmrc
-          cache: yarn
           registry-url: https://registry.npmjs.org
 
       # Trusted publishing needs npm >= 11.5.1 (Node 22 image may ship an older CLI)
